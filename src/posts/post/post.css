@@ -1,0 +1,40 @@
+.posts{
+  /* display: flex; */
+  position: relative;
+  display: inline-flex !important;
+  clear: both;
+  flex-direction: row;
+}
+.container{
+  position: relative;
+}
+.post{
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+}
+.postImg{
+  width: 316px;
+  object-fit: scale-down;
+  height: 200px;
+
+}
+.postCreator{
+  display: flex;
+  top: 0;
+  position: relative;
+}
+.postCreator > .postTime{
+  right:0;
+  position: absolute;
+}
+.postDetail{
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+h3{
+  font-size: 20px;
+  font-weight: 500;
+}
