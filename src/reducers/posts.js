@@ -1,5 +1,5 @@
 import { FETCH_ALL, UPDATE_POST, CREATE_POST, DELETE_POST } from "../constants/actionTypes";
-export default function (posts = [], action){
+export default function abcxyz(posts = [], action){
     switch (action.type) {
         case FETCH_ALL:
             return action.payload; //dispatch data từ action, action.payload tương đương như posts;
