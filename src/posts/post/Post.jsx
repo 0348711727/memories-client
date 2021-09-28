@@ -1,5 +1,5 @@
 import {Card, CardActions, CardContent, CardMedia, Button, Typography} from "@material-ui/core"
-import {ThumbUpAlt, Delete, MoreHoriz, ClassRounded} from "@material-ui/icons";
+import {ThumbUpAlt, Delete, MoreHoriz} from "@material-ui/icons";
 import moment from 'moment';
 import "./post.css";
 import {useDispatch} from 'react-redux';
